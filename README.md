@@ -111,3 +111,9 @@ Betik çalıştırıldığında sırasıyla şu adımları izler:
 - **Uyumluluk:** `AT+PRECONFG` komutunun cihaz tarafından kabul edilmesi (`+PRECONFG:2,OK`), CSC'nin her zaman kesin olarak değişeceği anlamına gelmez. Cihazınızda yüklü olan mevcut yazılımın (Multi-CSC seperti `OXM`) hedeflediğiniz CSC kodunu desteklemesi gerekir. Ayrıca yeni güvenlik yamaları bu yöntemi kısıtlamış olabilir.
 - **İzinler (Linux):** Linux kullanıyorsanız `/dev/ttyACM*` portlarına erişim için kullanıcınızın `dialout` veya `uucp` grubunda olması ya da betiği uygun izinlerle çalıştırmanız gerekebilir.
 - **Sorumluluk:** Bu araç yalnızca eğitim ve geliştirme amaçlıdır. Cihaz üzerinde yapılacak işlemlerin sorumluluğu tamamen kullanıcıya aittir.
+
+## Krediler
+
+Bu araç, **[Alephgsm](https://github.com/Alephgsm)** tarafından yayınlanan
+**[Change-CSC-AT-Command](https://github.com/Alephgsm/Change-CSC-AT-Command)** deposundaki yöntemin
+Python'a uyarlanmış halidir. Komut dizisi ve yöntem orijinal depoya aittir, bu proje sadece onu otomatikleştirir.
